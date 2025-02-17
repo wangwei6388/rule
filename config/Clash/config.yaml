@@ -1,5 +1,5 @@
 proxy-providers:
-  Airport_01:
+  Airport_众筹JS器:
     type: http
     interval: 1800
     health-check:
@@ -7,8 +7,8 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "订阅链接1"
-  Airport_02:
+    url: "https://47.243.172.13/api/v1/client/subscribe?token=d201557f26c0b920064683be23f3321c"
+  Airport_白嫖机场:
     type: http
     interval: 1800
     health-check:
@@ -16,7 +16,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "订阅链接2"
+    url: "https://dy11.baipiaoyes.com/api/v1/client/subscribe?token=26c14b8d817a367c64d2f2194c8f1cc2"
 
 proxies:
 - name: "🟢 直连"
